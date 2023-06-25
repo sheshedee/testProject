@@ -1,0 +1,38 @@
+@()
+@main("Welcome to Play") {
+<!-- Jumbotron -->
+<div class="jumbotron">
+    <h1 class="display-4">Welcome to Breeze Hotel</h1>
+    <p class="lead">Experience the ultimate comfort and luxury at Breeze Hotel. Book your stay today!</p>
+    <hr class="my-4">
+    <a class="btn btn-primary btn-lg" href="#" role="button">Book Now</a>
+</div>
+
+<!-- Grid -->
+<div class="container">
+    <h2 class="text-center mb-4">Our Rooms provides the best view</h2>
+    <div class="card" style="width:400px">
+        <div class="card-body">
+            <h4 class="card-title">Sunset view</h4>
+            <p class="card-text">Relaxed evening</p>
+            <a href="#" class="btn btn-primary">Enjoy</a>
+        </div>
+        <img class="card-img-bottom" src="@routes.Assets.versioned("images/sunset.jpg")" alt="sunset image" style="width:100%">
+    </div>
+<div class="card" style="width:400px">
+    <div class="card-body">
+        <h4 class="card-title">Deluxe room</h4>
+        <p class="card-text">Comfort</p>
+        <a href="#" class="btn btn-primary">Feel at home</a>
+    <img class="card-img-bottom" src="@routes.Assets.versioned("images/deluxe room.jpg")" alt="deluxe room image" style="width:100%">
+</div>
+<div class="card-body">
+    <h4 class="card-title">Executive room</h4>
+    <p class="card-text">Our executive suites offer a luxurious and spacious accommodation for a perfect stay.</p>
+    <a href="#" class="btn btn-primary">We got you covered</a>
+</div>
+<img class="card-img-bottom" src="@routes.Assets.versioned("images/luxurious.jpg")" alt="luxurious room image" style="width:100%">
+<small class="text-muted">Starting from $200/night</small>
+</div>
+</div>
+}
